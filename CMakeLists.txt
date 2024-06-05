@@ -17,6 +17,7 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        GlobalConfig.h
         resources.qrc
 )
 
@@ -36,6 +37,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         predraw2window.h predraw2window.cpp predraw2window.ui
         predraw1window.h predraw1window.cpp predraw1window.ui
         resultwindow.h resultwindow.cpp resultwindow.ui
+        GlobalConfig.h
+        GlobalConfig.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET DiceMagicApp APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

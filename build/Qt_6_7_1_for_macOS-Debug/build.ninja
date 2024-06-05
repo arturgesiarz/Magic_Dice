@@ -153,6 +153,14 @@ build CMakeFiles/DiceMagicApp.dir/resultwindow.cpp.o: CXX_COMPILER__DiceMagicApp
   OBJECT_DIR = CMakeFiles/DiceMagicApp.dir
   OBJECT_FILE_DIR = CMakeFiles/DiceMagicApp.dir
 
+build CMakeFiles/DiceMagicApp.dir/GlobalConfig.cpp.o: CXX_COMPILER__DiceMagicApp_unscanned_Debug /Users/arturgesiarz/ProjectsQT/DiceMagicApp/GlobalConfig.cpp || cmake_object_order_depends_target_DiceMagicApp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/DiceMagicApp.dir/GlobalConfig.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -fcolor-diagnostics
+  INCLUDES = -I/Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug/DiceMagicApp_autogen/include -isystem /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Headers -iframework /Users/arturgesiarz/Qt/6.7.1/macos/lib -isystem /Users/arturgesiarz/Qt/6.7.1/macos/mkspecs/macx-clang -isystem /Users/arturgesiarz/Qt/6.7.1/macos/include -isystem /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Headers -isystem /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/DiceMagicApp.dir
+  OBJECT_FILE_DIR = CMakeFiles/DiceMagicApp.dir
+
 build CMakeFiles/DiceMagicApp.dir/DiceMagicApp_autogen/EWIEGA46WW/qrc_resources.cpp.o: CXX_COMPILER__DiceMagicApp_unscanned_Debug /Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug/DiceMagicApp_autogen/EWIEGA46WW/qrc_resources.cpp || cmake_object_order_depends_target_DiceMagicApp
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/DiceMagicApp.dir/DiceMagicApp_autogen/EWIEGA46WW/qrc_resources.cpp.o.d
@@ -169,7 +177,7 @@ build CMakeFiles/DiceMagicApp.dir/DiceMagicApp_autogen/EWIEGA46WW/qrc_resources.
 #############################################
 # Link the executable DiceMagicApp.app/Contents/MacOS/DiceMagicApp
 
-build DiceMagicApp.app/Contents/MacOS/DiceMagicApp: CXX_EXECUTABLE_LINKER__DiceMagicApp_Debug CMakeFiles/DiceMagicApp.dir/DiceMagicApp_autogen/mocs_compilation.cpp.o CMakeFiles/DiceMagicApp.dir/main.cpp.o CMakeFiles/DiceMagicApp.dir/mainwindow.cpp.o CMakeFiles/DiceMagicApp.dir/diceselectionwindow.cpp.o CMakeFiles/DiceMagicApp.dir/playerswindow.cpp.o CMakeFiles/DiceMagicApp.dir/playersnameswindow.cpp.o CMakeFiles/DiceMagicApp.dir/predraw5window.cpp.o CMakeFiles/DiceMagicApp.dir/predraw4window.cpp.o CMakeFiles/DiceMagicApp.dir/predraw6window.cpp.o CMakeFiles/DiceMagicApp.dir/predraw3window.cpp.o CMakeFiles/DiceMagicApp.dir/predraw2window.cpp.o CMakeFiles/DiceMagicApp.dir/predraw1window.cpp.o CMakeFiles/DiceMagicApp.dir/resultwindow.cpp.o CMakeFiles/DiceMagicApp.dir/DiceMagicApp_autogen/EWIEGA46WW/qrc_resources.cpp.o | /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/QtGui /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/QtCore || DiceMagicApp_autogen DiceMagicApp_autogen_timestamp_deps
+build DiceMagicApp.app/Contents/MacOS/DiceMagicApp: CXX_EXECUTABLE_LINKER__DiceMagicApp_Debug CMakeFiles/DiceMagicApp.dir/DiceMagicApp_autogen/mocs_compilation.cpp.o CMakeFiles/DiceMagicApp.dir/main.cpp.o CMakeFiles/DiceMagicApp.dir/mainwindow.cpp.o CMakeFiles/DiceMagicApp.dir/diceselectionwindow.cpp.o CMakeFiles/DiceMagicApp.dir/playerswindow.cpp.o CMakeFiles/DiceMagicApp.dir/playersnameswindow.cpp.o CMakeFiles/DiceMagicApp.dir/predraw5window.cpp.o CMakeFiles/DiceMagicApp.dir/predraw4window.cpp.o CMakeFiles/DiceMagicApp.dir/predraw6window.cpp.o CMakeFiles/DiceMagicApp.dir/predraw3window.cpp.o CMakeFiles/DiceMagicApp.dir/predraw2window.cpp.o CMakeFiles/DiceMagicApp.dir/predraw1window.cpp.o CMakeFiles/DiceMagicApp.dir/resultwindow.cpp.o CMakeFiles/DiceMagicApp.dir/GlobalConfig.cpp.o CMakeFiles/DiceMagicApp.dir/DiceMagicApp_autogen/EWIEGA46WW/qrc_resources.cpp.o | /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/QtGui /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/QtCore || DiceMagicApp_autogen DiceMagicApp_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
   LINK_LIBRARIES = -Wl,-rpath,/Users/arturgesiarz/Qt/6.7.1/macos/lib  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework OpenGL  -framework AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -F/Users/arturgesiarz/Qt/6.7.1/macos/lib
@@ -281,7 +289,7 @@ build DiceMagicApp_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}
 #############################################
 # Phony custom command for CMakeFiles/DiceMagicApp_autogen_timestamp_deps
 
-build CMakeFiles/DiceMagicApp_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/DiceMagicApp_autogen_timestamp_deps: phony /Users/arturgesiarz/Qt/6.7.1/macos/./libexec/moc /Users/arturgesiarz/Qt/6.7.1/macos/./libexec/uic /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/QtCore /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+build CMakeFiles/DiceMagicApp_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/DiceMagicApp_autogen_timestamp_deps: phony /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/arturgesiarz/Qt/6.7.1/macos/./libexec/uic /Users/arturgesiarz/Qt/6.7.1/macos/./libexec/moc /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/QtCore
 
 
 #############################################

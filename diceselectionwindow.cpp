@@ -1,9 +1,11 @@
 #include "diceselectionwindow.h"
 #include "ui_diceselectionwindow.h"
+#include "GlobalConfig.h"
 
-DiceSelectionWindow::DiceSelectionWindow(QWidget *parent)
+DiceSelectionWindow::DiceSelectionWindow(GlobalConfig* globalConfig,QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::DiceSelectionWindow)
+    , globalConfig(globalConfig)
 {
     ui->setupUi(this);
     setFixedSize(size());
@@ -13,3 +15,18 @@ DiceSelectionWindow::~DiceSelectionWindow()
 {
     delete ui;
 }
+
+void DiceSelectionWindow::on_numberDices_valueChanged(int numberOfDices)
+{
+    globalConfig->setNumberOfDices(numberOfDices);
+}
+
+
+void DiceSelectionWindow::on_btnNext_clicked(bool checked)
+{
+    w_playerSelection = new PlayersWindow(globalConfig);
+
+    close();
+    w_playerSelection->show();
+}
+

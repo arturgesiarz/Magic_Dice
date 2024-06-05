@@ -17,10 +17,10 @@
    <string notr="true">background-color: #6741d9;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btnNext">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>260</x>
       <y>410</y>
       <width>221</width>
       <height>71</height>
@@ -39,10 +39,10 @@ border-radius: 30px;
      <string>NEXT</string>
     </property>
    </widget>
-   <widget class="QSpinBox" name="spinBox">
+   <widget class="QSpinBox" name="numberPlayers">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>320</x>
       <y>270</y>
       <width>131</width>
       <height>61</height>
@@ -63,10 +63,10 @@ color: #343a40;</string>
      <number>5</number>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="labelTitle">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>150</x>
       <y>60</y>
       <width>471</width>
       <height>181</height>

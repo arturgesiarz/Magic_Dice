@@ -293,6 +293,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/GlobalConfig.h",
+			"MU",
+			"EWIEGA46WW/moc_GlobalConfig.cpp",
+			null
+		],
+		[
 			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/diceselectionwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_diceselectionwindow.cpp",
@@ -416,6 +422,11 @@
 	"SETTINGS_FILE" : "/Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug/CMakeFiles/DiceMagicApp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/GlobalConfig.cpp",
+			"MU",
+			null
+		],
 		[
 			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/diceselectionwindow.cpp",
 			"MU",

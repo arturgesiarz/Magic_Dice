@@ -39,7 +39,7 @@ border-radius: 30px;
      <string>DRAW</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="dice2">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -55,7 +55,7 @@ border-radius: 30px;
      <pixmap resource="resources.qrc">:/cube/res/dice-?.png</pixmap>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="dice1">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -103,7 +103,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="dice4">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -119,7 +119,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <pixmap resource="resources.qrc">:/cube/res/dice-?.png</pixmap>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QLabel" name="dice3">
     <property name="geometry">
      <rect>
       <x>210</x>

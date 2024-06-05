@@ -17,11 +17,11 @@
    <string notr="true">background-color: #6741d9;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="labelTitle">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>90</y>
+      <x>150</x>
+      <y>60</y>
       <width>471</width>
       <height>181</height>
      </rect>
@@ -36,17 +36,17 @@ border-radius: 40px;
     </property>
     <property name="text">
      <string>CHOOSE THE NUMBER 
-  OF DICE</string>
+  OF DICES</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QSpinBox" name="spinBox">
+   <widget class="QSpinBox" name="numberDices">
     <property name="geometry">
      <rect>
       <x>320</x>
-      <y>290</y>
+      <y>270</y>
       <width>131</width>
       <height>61</height>
      </rect>
@@ -66,11 +66,11 @@ color: #343a40;</string>
      <number>6</number>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btnNext">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>430</y>
+      <x>260</x>
+      <y>410</y>
       <width>221</width>
       <height>71</height>
      </rect>

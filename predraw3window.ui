@@ -17,7 +17,7 @@
    <string notr="true">background-color: #6741d9;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label_5">
+   <widget class="QLabel" name="dice1">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -33,7 +33,7 @@
      <pixmap resource="resources.qrc">:/cube/res/dice-?.png</pixmap>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btnDraw">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -55,7 +55,7 @@ border-radius: 30px;
      <string>DRAW</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QTextEdit" name="playerName">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -87,7 +87,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="dice2">
     <property name="geometry">
      <rect>
       <x>330</x>
@@ -103,7 +103,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <pixmap resource="resources.qrc">:/cube/res/dice-?.png</pixmap>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="dice3">
     <property name="geometry">
      <rect>
       <x>590</x>

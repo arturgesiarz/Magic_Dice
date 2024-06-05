@@ -20,10 +20,10 @@
    <widget class="QPushButton" name="btnStart">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>450</y>
-      <width>171</width>
-      <height>61</height>
+      <x>260</x>
+      <y>410</y>
+      <width>221</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -43,7 +43,7 @@ border-radius: 30px;
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>80</y>
+      <y>60</y>
       <width>451</width>
       <height>341</height>
      </rect>

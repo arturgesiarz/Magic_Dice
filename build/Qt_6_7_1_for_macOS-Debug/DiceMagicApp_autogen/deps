@@ -119,6 +119,8 @@ DiceMagicApp_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/CMakeLists.txt \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/GlobalConfig.cpp \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/GlobalConfig.h \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug/CMakeFiles/3.29.0-rc3/CMakeCXXCompiler.cmake \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug/CMakeFiles/3.29.0-rc3/CMakeSystem.cmake \
