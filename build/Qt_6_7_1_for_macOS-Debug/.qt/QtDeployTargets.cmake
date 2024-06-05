@@ -1,0 +1,1 @@
+set(__QT_DEPLOY_TARGET_DiceMagicApp_FILE /Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug/DiceMagicApp.app/Contents/MacOS/DiceMagicApp)
