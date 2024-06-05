@@ -128,6 +128,12 @@ DiceMagicApp_autogen/timestamp: \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/main.cpp \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/mainwindow.cpp \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/mainwindow.h \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playersnameswindow.cpp \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playersnameswindow.h \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playerswindow.cpp \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playerswindow.h \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predrawwindow.cpp \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predrawwindow.h \
 	/Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
 	/Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
 	/Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -445,4 +451,7 @@ DiceMagicApp_autogen/timestamp: \
 	/Users/arturgesiarz/Qt/6.7.1/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/diceselectionwindow.ui \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/mainwindow.ui \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playersnameswindow.ui \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playerswindow.ui \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predrawwindow.ui \
 	/Applications/CMake.app/Contents/bin/cmake

@@ -72,13 +72,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 62,
+				"line" : 65,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 45,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
@@ -331,18 +331,21 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6,
+				9,
+				12
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "DiceMagicApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "DiceMagicApp_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "DiceMagicApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "DiceMagicApp::@6890427a1f51a3e7e1df",
@@ -447,7 +450,10 @@
 			[
 				0,
 				1,
-				2
+				2,
+				6,
+				9,
+				12
 			]
 		},
 		{
@@ -455,7 +461,13 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				5,
+				8,
+				11,
+				14,
+				15,
+				16,
+				17
 			]
 		},
 		{
@@ -463,14 +475,17 @@
 			"sourceIndexes" : 
 			[
 				4,
-				6
+				7,
+				10,
+				13,
+				18
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				19
 			]
 		}
 	],
@@ -506,9 +521,75 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "diceselectionwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "diceselectionwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "diceselectionwindow.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "playerswindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "playerswindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "playerswindow.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "playersnameswindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "playersnameswindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "playersnameswindow.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_7_1_for_macOS-Debug/DiceMagicApp_autogen/include/ui_mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_1_for_macOS-Debug/DiceMagicApp_autogen/include/ui_diceselectionwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_1_for_macOS-Debug/DiceMagicApp_autogen/include/ui_playerswindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_1_for_macOS-Debug/DiceMagicApp_autogen/include/ui_playersnameswindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{

@@ -302,6 +302,24 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playersnameswindow.h",
+			"MU",
+			"EWIEGA46WW/moc_playersnameswindow.cpp",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playerswindow.h",
+			"MU",
+			"EWIEGA46WW/moc_playerswindow.cpp",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predrawwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_predrawwindow.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -369,6 +387,21 @@
 		[ "/Users/arturgesiarz/ProjectsQT/DiceMagicApp/main.cpp", "MU", null ],
 		[
 			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playersnameswindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playerswindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predrawwindow.cpp",
 			"MU",
 			null
 		]

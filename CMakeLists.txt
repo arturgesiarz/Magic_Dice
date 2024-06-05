@@ -24,6 +24,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         diceselectionwindow.h diceselectionwindow.cpp diceselectionwindow.ui
+        playerswindow.h playerswindow.cpp playerswindow.ui
+        playersnameswindow.h playersnameswindow.cpp playersnameswindow.ui
+        predrawwindow.h predrawwindow.cpp predrawwindow.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET DiceMagicApp APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

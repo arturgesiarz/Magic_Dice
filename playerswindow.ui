@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>PlayersWindow</class>
+ <widget class="QMainWindow" name="PlayersWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -17,13 +17,13 @@
    <string notr="true">background-color: #6741d9;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="btnStart">
+   <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>450</y>
-      <width>171</width>
-      <height>61</height>
+      <x>290</x>
+      <y>410</y>
+      <width>221</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -36,30 +36,53 @@ border-radius: 30px;
 </string>
     </property>
     <property name="text">
-     <string>START</string>
+     <string>NEXT</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>270</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 40px;
+background-color: #f3f0ff;
+color: #343a40;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>5</number>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>80</y>
-      <width>451</width>
-      <height>341</height>
+      <x>180</x>
+      <y>60</y>
+      <width>471</width>
+      <height>181</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: #d0bfff;
 color: #343a40;
-font: 100px &quot;Jenthill&quot;;
-line-height: 1;
+font: 40px;
 letter-spacing: -1px;
-border-radius: 50px;
+border-radius: 40px;
 </string>
     </property>
     <property name="text">
-     <string>MAGIC  
- DICE</string>
+     <string>CHOOSE THE NUMBER 
+  OF PLAYERS</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>

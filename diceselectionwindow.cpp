@@ -6,6 +6,7 @@ DiceSelectionWindow::DiceSelectionWindow(QWidget *parent)
     , ui(new Ui::DiceSelectionWindow)
 {
     ui->setupUi(this);
+    setFixedSize(size());
 }
 
 DiceSelectionWindow::~DiceSelectionWindow()
