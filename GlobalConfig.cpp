@@ -11,9 +11,14 @@ void GlobalConfig::setNumberOfDices(int numberOfDices)
     selectedNumberOfDices = numberOfDices;
 }
 
-void GlobalConfig::setNamesOfPlayers(int, std::string)
+void GlobalConfig::setNamesOfPlayers(int playerID, std::string playerName)
 {
-    //todo
+    if (playerID < MAX_PLAYERS) {
+        namesOfPlayers[playerID] = playerName;
+    } else {
+       throw std::out_of_range("The number of players has been exceeded!");
+    }
+
 }
 
 int GlobalConfig::getNumberOfPlayers()

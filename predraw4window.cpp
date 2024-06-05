@@ -1,9 +1,10 @@
 #include "predraw4window.h"
 #include "ui_predraw4window.h"
 
-PreDraw4Window::PreDraw4Window(QWidget *parent)
+PreDraw4Window::PreDraw4Window(GlobalConfig* globalConfig,QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::PreDraw4Window)
+    , globalConfig(globalConfig)
 {
     ui->setupUi(this);
 }

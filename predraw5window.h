@@ -2,6 +2,7 @@
 #define PREDRAW5WINDOW_H
 
 #include <QMainWindow>
+#include "GlobalConfig.h"
 
 namespace Ui {
 class PreDraw5Window;
@@ -12,11 +13,12 @@ class PreDraw5Window : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit PreDraw5Window(QWidget *parent = nullptr);
+    explicit PreDraw5Window(GlobalConfig* globalConfig,QWidget *parent = nullptr);
     ~PreDraw5Window();
 
 private:
     Ui::PreDraw5Window *ui;
+    GlobalConfig* globalConfig;
 };
 
 #endif // PREDRAW5WINDOW_H
