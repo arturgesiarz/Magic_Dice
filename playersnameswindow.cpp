@@ -95,11 +95,6 @@ void PlayersNamesWindow::on_player5_textChanged()
 
 void PlayersNamesWindow::on_btnNext_clicked(bool checked)
 {
-    // w_playerSelection = new PlayersWindow(globalConfig);
-
-    // close();
-    // Qt::ReplaceSelection->show();
-
     const int selectedNumberOfDices = globalConfig->getNumberOfDices();
 
     switch(selectedNumberOfDices) {
