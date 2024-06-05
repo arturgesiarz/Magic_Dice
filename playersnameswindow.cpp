@@ -1,7 +1,6 @@
 #include "playersnameswindow.h"
 #include "ui_playersnameswindow.h"
 #include "GlobalConfig.h"
-#include <iostream>
 
 PlayersNamesWindow::PlayersNamesWindow(GlobalConfig* globalConfig,QWidget *parent)
     : QMainWindow(parent)
@@ -9,7 +8,9 @@ PlayersNamesWindow::PlayersNamesWindow(GlobalConfig* globalConfig,QWidget *paren
     , globalConfig(globalConfig)
 {
     ui->setupUi(this);
+
     blockCells();
+    colorBlockedCells();
 }
 
 // Funkcja blokuje wpisywanie do poszczegolnych okienek
@@ -34,6 +35,25 @@ void PlayersNamesWindow::blockCells()
     }
     if (selectedNumberOfPlayers == 4) {
         ui->player5->setReadOnly(true);
+    }
+}
+
+// Funkcja zmienia kolor zablokowanych okienek
+void PlayersNamesWindow::colorBlockedCells()
+{
+
+
+    if (ui->player2->isReadOnly()) {
+        ui->player2->setStyleSheet("background-color: #495057; border-radius: 10px;");
+    }
+    if (ui->player3->isReadOnly()) {
+        ui->player3->setStyleSheet("background-color: #495057; border-radius: 10px;");
+    }
+    if (ui->player4->isReadOnly()) {
+        ui->player4->setStyleSheet("background-color: #495057; border-radius: 10px;");
+    }
+    if (ui->player5->isReadOnly()) {
+        ui->player5->setStyleSheet("background-color: #495057; border-radius: 10px;");
     }
 }
 

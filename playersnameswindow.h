@@ -15,6 +15,7 @@ class PlayersNamesWindow : public QMainWindow
 public:
     explicit PlayersNamesWindow(GlobalConfig* globalConfig, QWidget *parent = nullptr);
     void blockCells();
+    void colorBlockedCells();
     ~PlayersNamesWindow();
 
 private:
