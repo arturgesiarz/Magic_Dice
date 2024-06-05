@@ -132,8 +132,21 @@ DiceMagicApp_autogen/timestamp: \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playersnameswindow.h \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playerswindow.cpp \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playerswindow.h \
-	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predrawwindow.cpp \
-	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predrawwindow.h \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw1window.cpp \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw1window.h \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw2window.cpp \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw2window.h \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw3window.cpp \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw3window.h \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw4window.cpp \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw4window.h \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw5window.cpp \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw5window.h \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw6window.cpp \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw6window.h \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/resources.qrc \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/resultwindow.cpp \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/resultwindow.h \
 	/Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
 	/Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
 	/Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -453,5 +466,11 @@ DiceMagicApp_autogen/timestamp: \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/mainwindow.ui \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playersnameswindow.ui \
 	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/playerswindow.ui \
-	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predrawwindow.ui \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw1window.ui \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw2window.ui \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw3window.ui \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw4window.ui \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw5window.ui \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw6window.ui \
+	/Users/arturgesiarz/ProjectsQT/DiceMagicApp/resultwindow.ui \
 	/Applications/CMake.app/Contents/bin/cmake

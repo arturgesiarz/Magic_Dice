@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "/Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug/DiceMagicApp_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/arturgesiarz/ProjectsQT/DiceMagicApp",
+	"CMAKE_SOURCE_DIR" : "/Users/arturgesiarz/ProjectsQT/DiceMagicApp",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug/DiceMagicApp_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/res/dice-2.png",
+		"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/res/dice-6.png",
+		"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/res/dice-4.png",
+		"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/res/dice-5.png",
+		"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/res/dice-1.png",
+		"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/res/dice-?.png",
+		"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/res/dice-3.png"
+	],
+	"LOCK_FILE" : "/Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug/CMakeFiles/DiceMagicApp_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/Users/arturgesiarz/Qt/6.7.1/macos/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/arturgesiarz/ProjectsQT/DiceMagicApp/build/Qt_6_7_1_for_macOS-Debug/CMakeFiles/DiceMagicApp_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/arturgesiarz/ProjectsQT/DiceMagicApp/resources.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

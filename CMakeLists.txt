@@ -17,6 +17,7 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        resources.qrc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -26,7 +27,15 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         diceselectionwindow.h diceselectionwindow.cpp diceselectionwindow.ui
         playerswindow.h playerswindow.cpp playerswindow.ui
         playersnameswindow.h playersnameswindow.cpp playersnameswindow.ui
-        predrawwindow.h predrawwindow.cpp predrawwindow.ui
+
+        resources.qrc
+        predraw5window.h predraw5window.cpp predraw5window.ui
+        predraw4window.h predraw4window.cpp predraw4window.ui
+        predraw6window.h predraw6window.cpp predraw6window.ui
+        predraw3window.h predraw3window.cpp predraw3window.ui
+        predraw2window.h predraw2window.cpp predraw2window.ui
+        predraw1window.h predraw1window.cpp predraw1window.ui
+        resultwindow.h resultwindow.cpp resultwindow.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET DiceMagicApp APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

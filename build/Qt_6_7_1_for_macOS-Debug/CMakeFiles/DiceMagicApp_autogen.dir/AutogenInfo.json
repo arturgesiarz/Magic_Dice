@@ -283,7 +283,8 @@
 		"/Users/arturgesiarz/Qt/6.7.1/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake",
 		"/Users/arturgesiarz/Qt/6.7.1/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
-		"/Users/arturgesiarz/Qt/6.7.1/macos/lib/cmake/Qt6/macos/Info.plist.app.in"
+		"/Users/arturgesiarz/Qt/6.7.1/macos/lib/cmake/Qt6/macos/Info.plist.app.in",
+		"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/arturgesiarz/ProjectsQT/DiceMagicApp",
 	"CROSS_CONFIG" : false,
@@ -316,9 +317,45 @@
 			null
 		],
 		[
-			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predrawwindow.h",
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw1window.h",
 			"MU",
-			"EWIEGA46WW/moc_predrawwindow.cpp",
+			"EWIEGA46WW/moc_predraw1window.cpp",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw2window.h",
+			"MU",
+			"EWIEGA46WW/moc_predraw2window.cpp",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw3window.h",
+			"MU",
+			"EWIEGA46WW/moc_predraw3window.cpp",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw4window.h",
+			"MU",
+			"EWIEGA46WW/moc_predraw4window.cpp",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw5window.h",
+			"MU",
+			"EWIEGA46WW/moc_predraw5window.cpp",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw6window.h",
+			"MU",
+			"EWIEGA46WW/moc_predraw6window.cpp",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/resultwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_resultwindow.cpp",
 			null
 		]
 	],
@@ -401,7 +438,37 @@
 			null
 		],
 		[
-			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predrawwindow.cpp",
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw1window.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw2window.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw3window.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw4window.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw5window.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw6window.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/resultwindow.cpp",
 			"MU",
 			null
 		]

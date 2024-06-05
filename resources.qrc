@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/cube">
+        <file>res/dice-?.png</file>
+        <file>res/dice-1.png</file>
+        <file>res/dice-2.png</file>
+        <file>res/dice-3.png</file>
+        <file>res/dice-4.png</file>
+        <file>res/dice-5.png</file>
+        <file>res/dice-6.png</file>
+    </qresource>
+</RCC>
