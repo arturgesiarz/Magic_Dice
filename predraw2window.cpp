@@ -7,6 +7,7 @@ PreDraw2Window::PreDraw2Window(GlobalConfig* globalConfig,QWidget *parent)
     , globalConfig(globalConfig)
 {
     ui->setupUi(this);
+    setFixedSize(size());
 }
 
 PreDraw2Window::~PreDraw2Window()

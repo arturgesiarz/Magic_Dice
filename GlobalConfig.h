@@ -21,6 +21,7 @@ public:
     int getNumberOfPlayers();
     int getNumberOfDices();
     std::string getNameOfPlayer(int);
+    int getScoreOfPlayer(int playerID);
 
 private:
     int selectedNumberOfPlayers;

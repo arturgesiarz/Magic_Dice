@@ -47,3 +47,11 @@ std::string GlobalConfig::getNameOfPlayer(int playerID)
     }
     throw std::out_of_range("The number of players has been exceeded!");
 }
+
+int GlobalConfig::getScoreOfPlayer(int playerID)
+{
+    if (playerID < MAX_PLAYERS) {
+        return scores[playerID];
+    }
+    throw std::out_of_range("The number of players has been exceeded!");
+}

@@ -9,6 +9,7 @@ PreDraw1Window::PreDraw1Window(GlobalConfig* globalConfig,QWidget *parent)
     , globalConfig(globalConfig)
 {
     ui->setupUi(this);
+    setFixedSize(size());
     PreDraw1Window::showCorrectName();
 }
 

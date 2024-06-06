@@ -8,7 +8,7 @@ PlayersNamesWindow::PlayersNamesWindow(GlobalConfig* globalConfig,QWidget *paren
     , globalConfig(globalConfig)
 {
     ui->setupUi(this);
-
+    setFixedSize(size());
     blockCells();
     colorBlockedCells();
 }
