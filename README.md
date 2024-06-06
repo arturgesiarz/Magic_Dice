@@ -6,14 +6,6 @@ Aplikacja ta pozwala na symulowanie rzutów kostką lub kostkami w zależności 
 Aplikacja ta może się przydać kiedy nie posiadamy w danym momencie kostki do gry, a chcemy z niej skorzystać
 aby zgarać w kultowe gry takie jak np. Monopoly.
 
-
-
-## Jak uruchomić aplikacje?
-
-  1. Skopiuj zawartość tego katalogu
-  2. Przejdź do tego katalogu
-  3. W terminalu wpisz ./DiceMagicApp
-
 ## Jak korzystać ?
 Po uruchomieniu aplikacji:
   1. Naciskamy przycisk "START". 
