@@ -17,6 +17,9 @@ public:
     explicit PreDraw3Window(GlobalConfig* globalConfig,QWidget *parent = nullptr);
     ~PreDraw3Window();
 
+private slots:
+    void on_btnDraw_clicked(bool checked);
+
 private:
     Ui::PreDraw3Window *ui;
     GlobalConfig* globalConfig;

@@ -14,3 +14,9 @@ PreDraw5Window::~PreDraw5Window()
 {
     delete ui;
 }
+
+void PreDraw5Window::on_btnDraw_clicked(bool checked)
+{
+
+}
+

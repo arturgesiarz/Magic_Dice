@@ -17,6 +17,9 @@ public:
     explicit PreDraw4Window(GlobalConfig* globalConfig,QWidget *parent = nullptr);
     ~PreDraw4Window();
 
+private slots:
+    void on_pushButton_clicked(bool checked);
+
 private:
     Ui::PreDraw4Window *ui;
     GlobalConfig* globalConfig;

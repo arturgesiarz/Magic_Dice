@@ -17,6 +17,9 @@ public:
     explicit PreDraw6Window(GlobalConfig* globalConfig,QWidget *parent = nullptr);
     ~PreDraw6Window();
 
+private slots:
+    void on_btnDraw_clicked(bool checked);
+
 private:
     Ui::PreDraw6Window *ui;
     GlobalConfig* globalConfig;

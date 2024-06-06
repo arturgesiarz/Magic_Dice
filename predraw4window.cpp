@@ -14,3 +14,9 @@ PreDraw4Window::~PreDraw4Window()
 {
     delete ui;
 }
+
+void PreDraw4Window::on_pushButton_clicked(bool checked)
+{
+
+}
+
