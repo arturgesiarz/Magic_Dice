@@ -7,7 +7,7 @@ Aplikacja ta może się przydać kiedy nie posiadamy w danym momencie kostki do 
 aby zgarać w kultowe gry takie jak np. Monopoly.
 
 ## Jak korzystać ?
-Po uruchomieniu aplikacji:
+Po skompilowaniu i uruchomieniu aplikacji:
   1. Naciskamy przycisk "START". 
   2. Wpisujemy ile chcemy losować kostek jednocześnie, liczbę możemy wpisać lub skorzystać ze strzałek odpowiednio w dól i w górę do zmniejsza oraz do zwiększania liczby kostek
   3. Wpisujemy liczbę losujących
