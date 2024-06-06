@@ -38,8 +38,29 @@ Przez to nasza aplikacja gwarantuje wysoką losowość co do kostek.
 ## Dodatkowe informacje:
 Do działania tej aplikacji zostały wykorzystane biblioteki QT.
 
+## Screenshots:
+
+## Menu główne
+![](https://github.com/arturgesiarz/Magic_Dice/blob/origin/sreenshots/Zrzut%20ekranu%202024-06-6%20o%2015.06.52.png)
+
+## Wybieranie liczby kostek
+![](https://github.com/arturgesiarz/Magic_Dice/blob/origin/sreenshots/Zrzut%20ekranu%202024-06-6%20o%2015.07.04.png)
+
+## Wybieranie liczby graczy
+![](https://github.com/arturgesiarz/Magic_Dice/blob/origin/sreenshots/Zrzut%20ekranu%202024-06-6%20o%2015.18.59.png)
+
+## Wpisywanie nazwy graczy
+![](https://github.com/arturgesiarz/Magic_Dice/blob/origin/sreenshots/Zrzut%20ekranu%202024-06-6%20o%2015.07.19.png)
+
+## Przed losowaniem
+![](https://github.com/arturgesiarz/Magic_Dice/blob/origin/sreenshots/Zrzut%20ekranu%202024-06-6%20o%2015.07.59.png)
+
+## Po losowaniu
+![](https://github.com/arturgesiarz/Magic_Dice/blob/origin/sreenshots/Zrzut%20ekranu%202024-06-6%20o%2015.08.04.png)
+
+## Score
+![](https://github.com/arturgesiarz/Magic_Dice/blob/origin/sreenshots/Zrzut%20ekranu%202024-06-6%20o%2015.08.14.png)
+
 ## Autor:
 Artur Gęsiarz
 - Projekt został stworzony w ramach kursu AGH C++
-
-Have a fun :)
