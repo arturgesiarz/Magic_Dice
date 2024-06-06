@@ -84,8 +84,8 @@
    <widget class="QTextEdit" name="playerName">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>0</y>
+      <x>20</x>
+      <y>10</y>
       <width>251</width>
       <height>41</height>
      </rect>
@@ -157,16 +157,6 @@ border-radius: 30px;
      <pixmap resource="resources.qrc">:/cube/res/dice-?.png</pixmap>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>22</height>
-    </rect>
-   </property>
   </widget>
  </widget>
  <resources>

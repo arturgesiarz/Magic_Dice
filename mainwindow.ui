@@ -20,8 +20,8 @@
    <widget class="QPushButton" name="btnStart">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>410</y>
+      <x>280</x>
+      <y>420</y>
       <width>221</width>
       <height>71</height>
      </rect>
@@ -66,17 +66,6 @@ border-radius: 50px;
     </property>
    </widget>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>24</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
