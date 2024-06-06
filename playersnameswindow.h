@@ -3,15 +3,14 @@
 
 #include <QMainWindow>
 #include <QTextEdit>
-#include "GlobalConfig.h"
 
-#include "predraw1window.h"
-#include "predraw2window.h"
-#include "predraw3window.h"
-#include "predraw4window.h"
-#include "predraw5window.h"
-#include "predraw6window.h"
-
+class GlobalConfig;
+class PreDraw1Window;
+class PreDraw2Window;
+class PreDraw3Window;
+class PreDraw4Window;
+class PreDraw5Window;
+class PreDraw6Window;
 
 namespace Ui {
 class PlayersNamesWindow;

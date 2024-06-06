@@ -1,6 +1,14 @@
 #include "resultwindow.h"
 #include "ui_resultwindow.h"
 
+#include "GlobalConfig.h"
+
+#include "predraw1window.h"
+#include "predraw2window.h"
+#include "predraw3window.h"
+#include "predraw4window.h"
+#include "predraw5window.h"
+#include "predraw6window.h"
 
 
 ResultWindow::ResultWindow(GlobalConfig* globalConfig,QWidget *parent)
@@ -88,7 +96,49 @@ void ResultWindow::colorBlockedCells()
 
 void ResultWindow::on_btnRedraw_clicked(bool checked)
 {
-    // dodac mozliwosc reDraw!!
+    const int selectedNumberOfDices = globalConfig->getNumberOfDices();
+    globalConfig->clear();
+
+    switch(selectedNumberOfDices) {
+
+    case 1:
+        w_predraw_1 = new PreDraw1Window(globalConfig);
+        close();
+        w_predraw_1->show();
+        break;
+
+    case 2:
+        w_predraw_2 = new PreDraw2Window(globalConfig);
+        close();
+        w_predraw_2->show();
+        break;
+
+    case 3:
+        w_predraw_3 = new PreDraw3Window(globalConfig);
+        close();
+        w_predraw_3->show();
+        break;
+
+    case 4:
+        w_predraw_4 = new PreDraw4Window(globalConfig);
+        close();
+        w_predraw_4->show();
+        break;
+
+    case 5:
+        w_predraw_5 = new PreDraw5Window(globalConfig);
+        close();
+        w_predraw_5->show();
+        break;
+
+    case 6:
+        w_predraw_6 = new PreDraw6Window(globalConfig);
+        close();
+        w_predraw_6->show();
+        break;
+    }
+
+    delete this;
 }
 
 

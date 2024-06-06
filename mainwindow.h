@@ -2,7 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "diceselectionwindow.h"
+
+class DiceSelectionWindow;
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

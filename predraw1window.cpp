@@ -1,7 +1,9 @@
 #include "predraw1window.h"
 #include "ui_predraw1window.h"
+
 #include "randomengine.h"
-#include <iostream>
+#include "resultwindow.h"
+#include "GlobalConfig.h"
 
 PreDraw1Window::PreDraw1Window(GlobalConfig* globalConfig,QWidget *parent)
     : QMainWindow(parent)
@@ -72,6 +74,8 @@ void PreDraw1Window::on_btnDraw_clicked(bool checked)
 
         close();
         w_result->show();
+
+        delete this;
     }
 
     // losowanie

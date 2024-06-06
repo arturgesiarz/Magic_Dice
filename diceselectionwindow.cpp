@@ -1,5 +1,7 @@
 #include "diceselectionwindow.h"
 #include "ui_diceselectionwindow.h"
+
+#include "playerswindow.h"
 #include "GlobalConfig.h"
 
 DiceSelectionWindow::DiceSelectionWindow(GlobalConfig* globalConfig,QWidget *parent)
@@ -28,5 +30,7 @@ void DiceSelectionWindow::on_btnNext_clicked(bool checked)
 
     close();
     w_playerSelection->show();
+
+    delete this;
 }
 

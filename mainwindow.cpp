@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+
 #include "diceselectionwindow.h"
 #include "GlobalConfig.h"
 
@@ -9,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     setFixedSize(size());
-    w_dicesSelection = new DiceSelectionWindow(new GlobalConfig());  // utworzenie nowego okna -> wyboru liczby kostek
+
 }
 
 MainWindow::~MainWindow()
@@ -19,6 +20,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_btnStart_clicked(bool checked)
 {
+    w_dicesSelection = new DiceSelectionWindow(new GlobalConfig());
     close();
     w_dicesSelection->show();
 }

@@ -87,16 +87,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
-  /Users/arturgesiarz/ProjectsQT/DiceMagicApp/GlobalConfig.h \
-  /Users/arturgesiarz/ProjectsQT/DiceMagicApp/playersnameswindow.h \
-  /Users/arturgesiarz/ProjectsQT/DiceMagicApp/playerswindow.h \
-  /Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw1window.h \
-  /Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw2window.h \
-  /Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw3window.h \
-  /Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw4window.h \
-  /Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw5window.h \
-  /Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw6window.h \
-  /Users/arturgesiarz/ProjectsQT/DiceMagicApp/resultwindow.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -141,7 +131,6 @@
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
@@ -209,7 +198,6 @@
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
@@ -229,33 +217,21 @@
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qtextcursor.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qtextformat.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/QTextEdit \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
-  /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtextedit.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \

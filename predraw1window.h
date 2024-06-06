@@ -3,8 +3,9 @@
 
 #include <QMainWindow>
 #include <QLabel>
-#include "GlobalConfig.h"
-#include "resultwindow.h"
+
+class GlobalConfig;
+class ResultWindow;
 
 namespace Ui {
 class PreDraw1Window;

@@ -2,8 +2,9 @@
 #define PLAYERSWINDOW_H
 
 #include <QMainWindow>
-#include "playersnameswindow.h"
-#include "GlobalConfig.h"
+
+class PlayersNamesWindow;
+class GlobalConfig;
 
 namespace Ui {
 class PlayersWindow;

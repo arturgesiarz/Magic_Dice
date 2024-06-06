@@ -17,6 +17,7 @@ public:
     void setNumberOfDices(int);
     void setNamesOfPlayers(int, std::string);
     void setScoreOfPlayer(int playerID, int score);
+    void clear();
 
     int getNumberOfPlayers();
     int getNumberOfDices();

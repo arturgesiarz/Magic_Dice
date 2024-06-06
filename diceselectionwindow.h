@@ -2,8 +2,9 @@
 #define DICESELECTIONWINDOW_H
 
 #include <QMainWindow>
-#include "playerswindow.h"
-#include "GlobalConfig.h"
+
+class PlayersWindow;
+class GlobalConfig;
 
 namespace Ui {
 class DiceSelectionWindow;

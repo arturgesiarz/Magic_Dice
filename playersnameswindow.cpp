@@ -1,6 +1,13 @@
 #include "playersnameswindow.h"
 #include "ui_playersnameswindow.h"
+
 #include "GlobalConfig.h"
+#include "predraw1window.h"
+#include "predraw2window.h"
+#include "predraw3window.h"
+#include "predraw4window.h"
+#include "predraw5window.h"
+#include "predraw6window.h"
 
 PlayersNamesWindow::PlayersNamesWindow(GlobalConfig* globalConfig,QWidget *parent)
     : QMainWindow(parent)
@@ -136,6 +143,7 @@ void PlayersNamesWindow::on_btnNext_clicked(bool checked)
         break;
     }
 
+    delete this;
 }
 
 PlayersNamesWindow::~PlayersNamesWindow()

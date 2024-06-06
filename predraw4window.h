@@ -2,7 +2,8 @@
 #define PREDRAW4WINDOW_H
 
 #include <QMainWindow>
-#include "GlobalConfig.h"
+
+class GlobalConfig;
 
 namespace Ui {
 class PreDraw4Window;

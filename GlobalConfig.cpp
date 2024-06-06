@@ -30,6 +30,12 @@ void GlobalConfig::setScoreOfPlayer(int playerID, int score)
     }
 }
 
+// Funkcja czyszcaca
+void GlobalConfig::clear()
+{
+    std::fill(scores, scores+MAX_PLAYERS, 0);
+}
+
 int GlobalConfig::getNumberOfPlayers()
 {
     return selectedNumberOfPlayers;

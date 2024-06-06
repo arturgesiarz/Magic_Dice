@@ -1,6 +1,8 @@
 #include "playerswindow.h"
 #include "ui_playerswindow.h"
+
 #include "GlobalConfig.h"
+#include "playersnameswindow.h"
 
 PlayersWindow::PlayersWindow(GlobalConfig* globalConfig,QWidget *parent)
     : QMainWindow(parent)
@@ -29,5 +31,7 @@ void PlayersWindow::on_btnNext_clicked(bool checked)
 
     close();
     w_playerNameSelection->show();
+
+    delete this;
 }
 
