@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-a80a246cc84096af5f3c.json",
+					"jsonFile" : "directory-.-Debug-83a0d9e00d7f8bbf3097.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "DiceMagicApp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-DiceMagicApp-Debug-cb46a6cf3cfa5f05866a.json",
+					"jsonFile" : "target-DiceMagicApp-Debug-d974e5871c620b093bd4.json",
 					"name" : "DiceMagicApp",
 					"projectIndex" : 0
 				},

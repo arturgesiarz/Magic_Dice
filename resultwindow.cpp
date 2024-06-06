@@ -10,7 +10,7 @@
 #include "predraw5window.h"
 #include "predraw6window.h"
 
-#include "diceselectionwindow.h""
+#include "diceselectionwindow.h"
 
 
 ResultWindow::ResultWindow(GlobalConfig* globalConfig,QWidget *parent)

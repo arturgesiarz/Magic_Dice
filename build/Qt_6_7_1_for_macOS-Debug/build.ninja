@@ -297,7 +297,7 @@ build DiceMagicApp_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}
 #############################################
 # Phony custom command for CMakeFiles/DiceMagicApp_autogen_timestamp_deps
 
-build CMakeFiles/DiceMagicApp_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/DiceMagicApp_autogen_timestamp_deps: phony /Users/arturgesiarz/Qt/6.7.1/macos/./libexec/moc /Users/arturgesiarz/Qt/6.7.1/macos/./libexec/uic /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/QtCore /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+build CMakeFiles/DiceMagicApp_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/DiceMagicApp_autogen_timestamp_deps: phony /Users/arturgesiarz/Qt/6.7.1/macos/./libexec/uic /Users/arturgesiarz/Qt/6.7.1/macos/./libexec/moc /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtCore.framework/Versions/A/QtCore /Users/arturgesiarz/Qt/6.7.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 
 
 #############################################
