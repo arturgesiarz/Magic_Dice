@@ -11,6 +11,7 @@ class PreDraw4Window;
 class PreDraw5Window;
 class PreDraw6Window;
 
+class DiceSelectionWindow;
 
 namespace Ui {
 class ResultWindow;
@@ -31,6 +32,8 @@ public:
 private slots:
     void on_btnRedraw_clicked(bool checked);
 
+    void on_btnRestart_clicked(bool checked);
+
 private:
     Ui::ResultWindow *ui;
     GlobalConfig* globalConfig;
@@ -41,6 +44,8 @@ private:
     PreDraw4Window* w_predraw_4;
     PreDraw5Window* w_predraw_5;
     PreDraw6Window* w_predraw_6;
+
+    DiceSelectionWindow* w_diceSelection;
 };
 
 #endif // RESULTWINDOW_H

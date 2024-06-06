@@ -10,6 +10,8 @@
 #include "predraw5window.h"
 #include "predraw6window.h"
 
+#include "diceselectionwindow.h""
+
 
 ResultWindow::ResultWindow(GlobalConfig* globalConfig,QWidget *parent)
     : QMainWindow(parent)
@@ -141,10 +143,28 @@ void ResultWindow::on_btnRedraw_clicked(bool checked)
     delete this;
 }
 
+void ResultWindow::on_btnRestart_clicked(bool checked)
+{
+
+    globalConfig->clear();
+    globalConfig->setNumberOfDices(1);
+    globalConfig->setNumberOfPlayers(1);
+
+    w_diceSelection = new DiceSelectionWindow(globalConfig);
+
+    close();
+    w_diceSelection->show();
+
+    delete this;
+}
+
 
 ResultWindow::~ResultWindow()
 {
     delete ui;
 }
+
+
+
 
 

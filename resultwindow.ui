@@ -44,15 +44,15 @@ border-radius: 40px;
    <widget class="QPushButton" name="btnRedraw">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>170</x>
       <y>510</y>
       <width>221</width>
       <height>71</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #f8f0fc;
-color: #343a40;
+     <string notr="true">background-color: #d6336c;
+color: #fff;
 font: 20px;
 line-height: 1;
 letter-spacing: -1px;
@@ -462,6 +462,28 @@ li.checked::marker { content: &quot;\2612&quot;; }
       </layout>
      </item>
     </layout>
+   </widget>
+   <widget class="QPushButton" name="btnRestart">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>510</y>
+      <width>221</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #f8f0fc;
+color: #343a40;
+font: 20px;
+line-height: 1;
+letter-spacing: -1px;
+border-radius: 30px;
+</string>
+    </property>
+    <property name="text">
+     <string>RESTART</string>
+    </property>
    </widget>
   </widget>
  </widget>
