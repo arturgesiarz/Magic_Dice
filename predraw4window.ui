@@ -17,7 +17,7 @@
    <string notr="true">background-color: #6741d9;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btnDraw">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -71,7 +71,7 @@ border-radius: 30px;
      <pixmap resource="resources.qrc">:/cube/res/dice-?.png</pixmap>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QTextEdit" name="playerName">
     <property name="geometry">
      <rect>
       <x>10</x>
