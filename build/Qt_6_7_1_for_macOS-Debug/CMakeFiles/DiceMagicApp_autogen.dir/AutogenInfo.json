@@ -359,6 +359,12 @@
 			null
 		],
 		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/randomengine.h",
+			"MU",
+			"EWIEGA46WW/moc_randomengine.cpp",
+			null
+		],
+		[
 			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/resultwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_resultwindow.cpp",
@@ -475,6 +481,11 @@
 		],
 		[
 			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/predraw6window.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/arturgesiarz/ProjectsQT/DiceMagicApp/randomengine.cpp",
 			"MU",
 			null
 		],

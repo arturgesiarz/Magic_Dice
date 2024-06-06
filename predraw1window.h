@@ -2,7 +2,9 @@
 #define PREDRAW1WINDOW_H
 
 #include <QMainWindow>
+#include <QLabel>
 #include "GlobalConfig.h"
+#include "resultwindow.h"
 
 namespace Ui {
 class PreDraw1Window;
@@ -13,7 +15,10 @@ class PreDraw1Window : public QMainWindow
     Q_OBJECT
 
     void showCorrectName();
-    void drawing();
+    void drawing(QLabel* cube);
+    void changeCubesAfterDrawing(int cubeNumber, QLabel* cube);
+    void changeStartCube(QLabel* cube);
+    void addPoints(int playerID, int score);
 
 public:
     explicit PreDraw1Window(GlobalConfig* globalConfig,QWidget *parent = nullptr);
@@ -26,6 +31,7 @@ private:
     Ui::PreDraw1Window *ui;
     GlobalConfig* globalConfig;
     int drewPresons = 0;
+    ResultWindow *w_result;
 };
 
 #endif // PREDRAW1WINDOW_H

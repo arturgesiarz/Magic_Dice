@@ -39,6 +39,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         resultwindow.h resultwindow.cpp resultwindow.ui
         GlobalConfig.h
         GlobalConfig.cpp
+        randomengine.h randomengine.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET DiceMagicApp APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

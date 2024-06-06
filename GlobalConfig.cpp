@@ -21,6 +21,15 @@ void GlobalConfig::setNamesOfPlayers(int playerID, std::string playerName)
 
 }
 
+void GlobalConfig::setScoreOfPlayer(int playerID, int score)
+{
+    if (playerID < MAX_PLAYERS) {
+        scores[playerID] += score;
+    } else {
+        throw std::out_of_range("The number of players has been exceeded!");
+    }
+}
+
 int GlobalConfig::getNumberOfPlayers()
 {
     return selectedNumberOfPlayers;
